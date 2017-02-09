@@ -9,6 +9,10 @@
   "author": "adriancast",
   "license": "ISC",
   "devDependencies": {
-    "gulp-livereload": "^3.8.1"
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-webserver": "^0.9.1"
   }
 }
