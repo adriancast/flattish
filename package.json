@@ -1,0 +1,14 @@
+{
+  "name": "gulp-sass-jade-server",
+  "version": "1.0.0",
+  "description": "A basic configuration for your daily projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-livereload": "^3.8.1"
+  }
+}
