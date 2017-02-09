@@ -2,7 +2,6 @@ var gulp = require('gulp');
 var livereload = require('gulp-livereload');
 var sass = require('gulp-sass');
 var webserver = require('gulp-webserver');
-var image = require('gulp-image');
 var jade = require('gulp-jade');
 
 
@@ -34,11 +33,6 @@ gulp.task('sass', function () {
     .pipe(livereload());
 });
 
-gulp.task('image', function () {
-  gulp.src('./fixtures/*')
-    .pipe(image())
-    .pipe(gulp.dest('./dist/img'));
-});
 
 /*
 * This keeps track of the files
