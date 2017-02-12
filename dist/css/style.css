@@ -456,10 +456,16 @@ body {
   background-color: #00bf8f; }
 
 .categories {
-  background-color: blue; }
+  background-color: #7870cc;
+  padding-bottom: 90px;
+  color: white; }
+  .categories .item p {
+    margin-top: 30px; }
   .categories .item {
-    background-color: red;
+    background-color: #00bf8f;
+    text-align: center;
     height: 200px;
+    font-size: 30px;
     padding: 20px;
     margin-top: 50px;
     box-shadow: 12px 12px 0 #fff;
