@@ -463,6 +463,7 @@ body {
   .categories .item p {
     margin-top: 30px; }
   .categories .item {
+    transform: scale(0.8);
     text-align: center;
     height: 200px;
     font-size: 30px;
