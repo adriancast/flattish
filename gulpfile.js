@@ -23,6 +23,7 @@ gulp.task('html', function(){
 
 gulp.task('js', function(){
 	gulp.src('./*.js')
+    .pipe(gulp.dest('./dist/js'))
     .pipe(livereload());
 })
 
@@ -40,7 +41,7 @@ gulp.task('sass', function () {
 function fileTracker() {
 /* When a file is modified, runs the task in the square brackets */
   gulp.watch(['./*.jade','template/*.jade'], ['jade']);
-  gulp.watch('sass/*.sass', ['sass']);
+  gulp.watch('./sass/**/*.sass', ['sass']);
   gulp.watch('js/*.js', ['js']);
 }
 
