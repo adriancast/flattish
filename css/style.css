@@ -438,3 +438,12 @@
         right: 100%; }
       .row .col.push-l12 {
         left: 100%; } }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.hero {
+  min-width: 100%;
+  min-height: 300px;
+  background-color: blue; }
