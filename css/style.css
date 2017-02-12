@@ -454,6 +454,11 @@ body {
   min-width: 100%;
   min-height: 300px;
   background-color: #00bf8f; }
+  .hero .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px; }
 
 .categories {
   background-image: -webkit-linear-gradient(#47f4a9, #7870cc);
